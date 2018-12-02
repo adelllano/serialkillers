@@ -1,0 +1,171 @@
+body {
+background-color: #c01e1b;
+margin: 0px;
+}
+
+h2 {
+  font-family: Arial;
+}
+
+p {
+  font-family: Arial;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+
+}
+
+ main {
+  display: block;
+  /* grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(306.33px, 1fr)); */
+  /* grid-template-columns: repeat(3, 306.66px); */
+  /* code above sets up the entire grid: 3 columns x 306.66 + grid-gap= 960px */
+}
+
+.hero {
+  padding-top: 0px;
+}
+
+
+.intro {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+  background: #ffffff;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -120px;
+}
+
+.who {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery {
+  padding: 0 6px;
+  float: left;
+  /* width: 30%; */
+}
+
+.yearschart {
+  width: auto;
+  height: auto;
+  float: inherit;
+}
+
+/* #bundy {
+  background: #ffffff;
+  grid-column-gap: 0px;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+
+
+#dahmer {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+#zodiac {
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+}
+
+#wuornos {
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 1;
+}
+
+#gacy {
+  grid-column: 2 / span 1;
+  grid-row: 6 / span 1;
+}
+
+#ripper {
+  grid-column: 3 / span 1;
+  grid-row: 6 / span 1;
+}
+
+ #rader {
+  grid-column: 1 / span 1;
+  grid-row: 7 / span 1;
+}
+
+#ridgway {
+  grid-column: 2 / span 1;
+  grid-row: 7 / span 1;
+}
+
+#gein {
+  grid-column: 3 / span 1;
+  grid-row: 7 / span 1;
+}
+
+#berkowitz {
+  grid-column: 2 / span 1;
+  grid-row: 8 / span 1;
+} */
+
+.years {
+  grid-column: 1 / span 3;
+  grid-row: 10 / span 1;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#yearschart {
+  grid-column: 1 / span 3;
+  grid-row: 11 / span 1;
+}
+
+.where {
+  grid-column: 1 / span 3;
+  grid-row: 12 / span 1;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#maps {
+  grid-column: 1 / span 3;
+  grid-row: 13 / span 1;
+}
+/* this will reduce the gallery to 2 columns (50%) and keep the entire container at it's full view  */
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    margin: 6px 0;
+  }
+  .gallery {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+  .gallery {
+    width: 100%;
+  }
+}
+
+/* @supports(display: grid) {
+        .message {
+          display: none; */
