@@ -62,6 +62,13 @@ p {
   width: 100%;
 }
 
+img[src$=".jpg"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
 /* .yearschart1 img{
   width: 100%;
 } */
@@ -128,18 +135,13 @@ p {
 #berkowitz {
   grid-column: 2 / span 1;
   grid-row: 9 / span auto;
-    padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 #ridgway {
   grid-column: 3 / span 1;
   grid-row: 9 / span auto;
-  padding-bottom: 20px;
-}
-
-img {
-  width: 100%;
-  /* height: 83.75%; */
+  /* padding-bottom: 20px; */
 }
 
 .statetitle {
@@ -183,12 +185,34 @@ img {
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 75px;
+  padding-bottom: 0px;
 }
 
+#dahmer_graph {
+  grid-column: 1 / span 4;
+  grid-row: 16 / span 1;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
+#zodiac_graph {
+  grid-column: 1 / span 4;
+  grid-row: 17 / span 1;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#rader_graph {
+  grid-column: 1 / span 4;
+  grid-row: 18 / span 1;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 /* this will reduce the gallery to 2 columns (50%) and keep the entire container at it's full view  */
-/* @media only screen and (max-width: 700px) {
+ /* @media only screen and (max-width: 700px) {
   .container {
     width: 100%;
     margin: 6px 0;
@@ -206,7 +230,7 @@ img {
   .gallery {
     width: 100%;
   }
-} */
+}  */
 
 @supports(display: grid) {
         .message {
