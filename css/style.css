@@ -144,7 +144,7 @@ img[src$=".jpg"] {
   /* padding-bottom: 20px; */
 }
 
-#who-text {
+#whotext {
   grid-column: 1 / span 4;
   grid-row: 10 / span auto;
   padding: 10px;
