@@ -208,8 +208,8 @@ img[src$=".jpg"] {
 #dahmer-bundy {
   grid-column: 1 / span 4;
   grid-row: 14/ span auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 #dahmer-bundy p {
@@ -237,8 +237,8 @@ img[src$=".jpg"] {
 #rader-gein {
   grid-column: 1 / span 4;
   grid-row: 16/ span auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 #rader-gein p {
@@ -266,8 +266,8 @@ img[src$=".jpg"] {
 #gacy-zodiac {
   grid-column: 1 / span 4;
   grid-row: 18/ span auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 #gacy-zodiac p {
@@ -295,8 +295,8 @@ img[src$=".jpg"] {
 #ridgway-ripper {
   grid-column: 1 / span 4;
   grid-row: 20/ span auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 #ridgway-ripper p {
@@ -324,8 +324,8 @@ img[src$=".jpg"] {
 #berkowitz-wuornos {
   grid-column: 1 / span 4;
   grid-row: 22/ span auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 140px;
+  padding-right: 140px;
   padding-bottom: 28px;
 }
 
@@ -348,7 +348,6 @@ img[src$=".jpg"] {
 .searchinterest {
   grid-column: 1 / span 4;
   grid-row: 25 / span 1;
-  padding: 10px;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 0px;
@@ -362,7 +361,7 @@ img[src$=".jpg"] {
   padding-right: 40px;
 }
 
-#dahmer_graph {
+#dahmer_graph p{
   padding-left: 100px;
   padding-right: 100px;
 }
