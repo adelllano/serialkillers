@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,700');
 
 body {
 background-color: #c01e1b;
@@ -6,13 +6,13 @@ margin: 0px;
 }
 
 h1 {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;;
   text-align: center;
   color: #272c48;
 }
 
 h3 {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;;
   text-align: center;
   margin-bottom: 0px;
   color: #272c48;
@@ -22,8 +22,14 @@ h3 a {
   color: #272c48;
 }
 
+b {
+  font-family: Roboto, sans-serif;;
+  font-weight: 700;
+  color: #272c48;
+}
+
 p {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   line-height: 1.6;
 }
 
@@ -86,8 +92,8 @@ img[src$=".jpg"] {
   grid-row: 3 / span 1;
   background: #ffffff;
   /* padding: 10px; */
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .who {
@@ -156,82 +162,236 @@ img[src$=".jpg"] {
   grid-column: 1 / span 4;
   grid-row: 10 / span auto;
   padding: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.statetitle {
+
+
+#statetitle {
   grid-column: 1 / span 4;
   grid-row: 11 / span 1;
   margin-top: 0px;
 }
 
-#state {
+#stateintro {
   grid-column: 1 / span 4;
-  grid-row: 12 / span 1;
+  grid-row: 12/ span auto;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-#state img {
-  width: 100%;
+#dahmer_state {
+  grid-column: 2 / span 1;
+  grid-row: 13/ span auto;
 }
 
-.statetext {
+#dahmer_state h3 {
+  margin-top: 0px;
+}
+
+
+#bundy_state {
+  grid-column: 3 / span 1;
+  grid-row: 13/ span auto;
+}
+
+#bundy_state h3 {
+  margin-top: 0px;
+}
+
+#dahmer-bundy {
   grid-column: 1 / span 4;
-  grid-row: 13 / span 1;
-  padding: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  grid-row: 14/ span auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#dahmer-bundy p {
+  margin: 3px;
+}
+
+#rader_state {
+  grid-column: 2 / span 1;
+  grid-row: 15/ span auto;
+}
+
+#rader_state h3 {
+  margin-top: 0px;
+}
+
+#gein_state {
+  grid-column: 3 / span 1;
+  grid-row: 15/ span auto;
+}
+
+#gein_state h3 {
+  margin-top: 0px;
+}
+
+#rader-gein {
+  grid-column: 1 / span 4;
+  grid-row: 16/ span auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#rader-gein p {
+  margin: 3px;
+}
+
+#gacy_state {
+  grid-column: 2 / span 1;
+  grid-row: 17/ span auto;
+}
+
+#gacy_state h3 {
+  margin-top: 0px;
+}
+
+#zodiac_state {
+  grid-column: 3 / span 1;
+  grid-row: 17/ span auto;
+}
+
+#zodiac_state h3 {
+  margin-top: 0px;
+}
+
+#gacy-zodiac {
+  grid-column: 1 / span 4;
+  grid-row: 18/ span auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#gacy-zodiac p {
+  margin: 3px;
+}
+
+#ridgway_state {
+  grid-column: 2 / span 1;
+  grid-row: 19/ span auto;
+}
+
+#ridgway_state h3 {
+  margin-top: 0px;
+}
+
+#ripper_state {
+  grid-column: 3 / span 1;
+  grid-row: 19/ span auto;
+}
+
+#ripper_state h3 {
+  margin-top: 0px;
+}
+
+#ridgway-ripper {
+  grid-column: 1 / span 4;
+  grid-row: 20/ span auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#ridgway-ripper p {
+  margin: 3px;
+}
+
+#berkowitz_state {
+  grid-column: 2 / span 1;
+  grid-row: 21/ span auto;
+}
+
+#berkowitz_state h3 {
+  margin-top: 0px;
+}
+
+#wuornos_state {
+  grid-column: 3 / span 1;
+  grid-row: 21/ span auto;
+}
+
+#wuornos_state h3 {
+  margin-top: 0px;
+}
+
+#berkowitz-wuornos {
+  grid-column: 1 / span 4;
+  grid-row: 22/ span auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 28px;
+}
+
+#berkowitz-wuornos p {
+  margin: 3px;
 }
 
 .searchtitle{
   grid-column: 1 / span 4;
-  grid-row: 14 / span 1;
+  grid-row: 23 / span 1;
   padding-left: 40px;
   padding-right: 40px;
 }
 
 .flourish-embed {
   grid-column: 1 / span 4;
-  grid-row: 15 / span 1;
+  grid-row: 24 / span 1;
 }
 
 .searchinterest {
   grid-column: 1 / span 4;
-  grid-row: 16 / span 1;
+  grid-row: 25 / span 1;
   padding: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 0px;
 }
 
 #dahmer_graph {
   grid-column: 1 / span 4;
-  grid-row: 17 / span 1;
+  grid-row: 26 / span 1;
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+#dahmer_graph {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 #zodiac_graph {
   grid-column: 1 / span 4;
-  grid-row: 18 / span 1;
+  grid-row: 27 / span 1;
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
+#zodiac_graph p{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 #rader_graph {
   grid-column: 1 / span 4;
-  grid-row: 19 / span 1;
+  grid-row: 28 / span 1;
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
 }
 
+#rader_graph p {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 #info {
   grid-column: 1 / span 4;
-  grid-row: 20 / span 1;
+  grid-row: 29 / span 1;
   font-size: 13px;
   padding: 10px;
   padding-left: 40px;
