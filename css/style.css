@@ -30,6 +30,7 @@ p {
 .who p {
   text-align: center;
 }
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -228,9 +229,10 @@ img[src$=".jpg"] {
   padding-bottom: 40px;
 }
 
-#data {
+#info {
   grid-column: 1 / span 4;
   grid-row: 20 / span 1;
+  font-size: 13px;
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
