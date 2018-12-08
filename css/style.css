@@ -172,6 +172,11 @@ img[src$=".jpg"] {
   grid-column: 1 / span 4;
   grid-row: 11 / span 1;
   margin-top: 0px;
+
+}
+
+#statetitle h1{
+  margin-bottom: 16px;
 }
 
 #stateintro {
